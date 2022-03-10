@@ -1,0 +1,15 @@
+.page__main-container {
+    height: 100%;
+  }
+
+.page__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform .9s ease-in-out;
+}
+
+.page__image-container:hover .page__image {
+    transform: scale(1.05);
+    cursor: pointer;
+}
